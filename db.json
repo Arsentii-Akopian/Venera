@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "email": "bestorio86@gmail.com",
+      "password": "$2a$10$RQ5G4GiG9AdDqGLPlPmOVOCQiqB41urvwW.1.dBCeX.yUvG4TbJlu",
+      "name": "ignat",
+      "avatar": "",
+      "id": 1
+    },
+    {
+      "email": "besto2rio86@gmail.com",
+      "password": "$2a$10$EgBHOUJ4tFysIjY1YiYwKu8RVM61RuNVxlTpdPg.5/t0moQ2.AWwq",
+      "name": "besto",
+      "avatar": "",
+      "id": 2
+    },
+    {
+      "email": "bestorio862@gmail.com",
+      "password": "$2a$10$e8./TSLzi55QPG3HzC0l5.7G1rQz9vNU895.Y42YiFg.395WMMz32",
+      "name": "gricha",
+      "avatar": "",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": " Fresh and Clean",
+      "description": "Shampoo",
+      "image": "https://i.ebayimg.com/images/g/nEEAAOSwSRtePr~B/s-l1600.jpg",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "title": " Lador",
+      "description": "Shampoo",
+      "image": "https://cdn.stylevana.com/media/catalog/product/cache/5/image/1000x1231/17f82f742ffe127f42dca9de82fb58b1/l/a/lador-moisture-balancing-shampoo-530ml-529.jpg",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "title": " Aromatica",
+      "description": "Shampoo",
+      "image": "https://cdn.stylevana.com/media/catalog/product/cache/5/image/1000x1231/17f82f742ffe127f42dca9de82fb58b1/a/r/aromatica-b5-biotin-fortifying-conditioner-400ml-315.jpg",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "title": "CP-1",
+      "description": "Shampoo",
+      "image": "https://cdn.stylevana.com/media/catalog/product/cache/5/image/1000x1231/17f82f742ffe127f42dca9de82fb58b1/e/s/esthetic-house-co-1-bright-complex-intense-nourishing-conditioner-tube-100ml-232.jpg",
+      "price": 100
+    }
+  ]
+}

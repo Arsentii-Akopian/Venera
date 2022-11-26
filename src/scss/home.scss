@@ -1,0 +1,32 @@
+.home{
+  padding: 50px 0;
+  &__content{
+    display: flex;
+    column-gap: 10px;
+  }
+&__card{
+  width: calc(25% - (60px / 4));
+  border: brown 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  transition: margin-left 700ms;
+  transition: margin-top 700ms;
+  &:hover{
+    margin-top: -10px;
+    transition: margin-left 700ms;
+    transition: margin-top 700ms;
+
+
+  }
+}
+  &__img{
+    height: 300px;
+    width: 100%;
+    border-bottom: brown 2px solid;
+  ;
+  }
+  &__link{
+    color: #000000;
+
+  }
+}
