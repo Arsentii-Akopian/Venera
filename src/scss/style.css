@@ -105,6 +105,7 @@
   width: 100%;
 }
 .header__right-input {
+  caret-color: #ff73ee;
   font-size: 25px;
   outline: none;
   border: #ff73ee 2px solid;
@@ -117,7 +118,8 @@
   color: #191616;
 }
 .header__right-input::-webkit-search-cancel-button {
-  font-size: 22px;
+  font-size: 40px;
+  margin-right: 50px;
   transform: rotate(90deg);
   filter: grayscale(60%);
   cursor: pointer;
@@ -144,6 +146,12 @@
 .header__list {
   width: 0;
   padding-right: 0;
+}
+.header__container-logo {
+  width: 245px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .logo {
@@ -300,7 +308,7 @@
 .show {
   top: 0;
   right: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100vh;
   background: rgba(179, 179, 179, 0.35);
@@ -313,10 +321,10 @@
 .menu {
   max-width: 500px;
   width: 100%;
-  top: 50px;
   position: absolute;
   background: #000;
-  left: 130px;
+  left: 21.5vw;
+  z-index: 2;
 }
 .menu__link {
   text-align: center;

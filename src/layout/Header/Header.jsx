@@ -23,7 +23,7 @@ const Header = ({user, setUser,}) => {
         {
             id: 2,
             title: 'Golova',
-            list: ['Šampony',
+            list: [{name:'Šampony',path:'shampoo'},
                 'Oplachovač na vlasy',
                 'Balzám na vlasy',
                 'Kondicionér',
@@ -94,7 +94,9 @@ const Header = ({user, setUser,}) => {
                 'Ochrana před sluncem',
                 'Oleje']
         }
+
     ]
+
 
     return (
 
@@ -113,13 +115,16 @@ const Header = ({user, setUser,}) => {
                         <div className='header__menu'>
 
                             <ul className='header__list'>
+
                                 {
-                                    arrItem.map(item => (
-                                       <MenuCatalog show={show} {...item}/>
-                                    ))
+                                    arrItem.map( item  => (
+                                       <MenuCatalog show={show} setShow={setShow} {...item} />
+                                           ) )
+
                                 }
 
                             </ul>
+
                         </div>
                     </div>
 
@@ -163,9 +168,9 @@ const Header = ({user, setUser,}) => {
                                     setPopup={setPopup} popup={popup}/>
                 }
 
-
+              <div className="header__container-logo"> <Link className='logo' to='/'>VENERA</Link></div>
             </header>
-            <Link className='logo' to='/'>VENERA</Link>
+
         </div>
 
     );

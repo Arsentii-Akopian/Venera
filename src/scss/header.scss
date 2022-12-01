@@ -123,6 +123,8 @@ position: absolute;
     }
 
     &-input {
+      caret-color: #ff73ee;
+
       font-size: 25px;
       outline: none;
       border: #ff73ee 2px solid;
@@ -134,7 +136,8 @@ position: absolute;
         color: #191616;
       }
       &::-webkit-search-cancel-button {
-        font-size: 22px;
+        font-size: 40px;
+        margin-right: 50px;
         transform: rotate(90deg);
         filter: grayscale(60%);
         cursor: pointer;
@@ -167,9 +170,16 @@ position: absolute;
   }
 
   &__list {
+
     width: 0;
     padding-right: 0;
 
+  }
+  &__container-logo{
+    width: 245px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto  ;
   }
 }
 
